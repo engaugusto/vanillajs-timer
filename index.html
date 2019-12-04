@@ -1,0 +1,9 @@
+<script src="node_modules/easytimer.js/dist/easytimer.min.js"></script>
+<div id="basicUsage">00:00:00</div>
+<script type="text/javascript">
+var timer = new easytimer.Timer();
+timer.start();
+timer.addEventListener('secondsUpdated', function (e) {
+	document.getElementById('basicUsage').innerHTML = timer.getTimeValues().toString();
+});
+</script>

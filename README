@@ -1,0 +1,4 @@
+Download de package
+$ npm install easytimer.js --save
+
+Run the index.html
